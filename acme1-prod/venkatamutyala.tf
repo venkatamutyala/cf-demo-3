@@ -1,5 +1,5 @@
 
-module "frvenkatamutyala_cert" {
+module "venkatamutyala_cert" {
   source  = "../modules/acm"
   aliases = ["test-app.venkatamutyala.com", "www.test-app.venkatamutyala.com"]
 }
